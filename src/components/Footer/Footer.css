@@ -4,18 +4,16 @@
     text-align: center;
 }
 
-.container {
+.icon-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 40px;
+.icon {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
 }

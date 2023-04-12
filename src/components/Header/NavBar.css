@@ -1,35 +1,31 @@
 .navBar {
-    background-image: linear-gradient(rgb(167, 221, 244), white);
-   height: 9rem;
+  background-image: linear-gradient(rgb(167, 221, 244), white);
+  height: 9rem;
 }
 
 .nav {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
-.navBarTitle{
-    height: auto;
-    width: fit-content;
+.navBarTitle {
+  height: auto;
+  width: fit-content;
 }
-
 
 .navItems {
-    display: flex;
-    margin-left: auto;
-    margin-top: auto;
-
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .navItems li {
-    margin-left: 25px;
-    
+  margin-left: 25px;
 }
 
-
 .navBarName {
-    font-size:505%;
-    font-style: oblique;
-    margin: auto;
+  font-size: 505%;
+  font-style: oblique;
+  margin: auto;
   text-shadow: 5px 5px 5px rgb(145, 112, 112);
 }
