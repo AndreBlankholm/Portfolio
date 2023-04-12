@@ -1,0 +1,12 @@
+.contact {
+    background-color: yellow;
+}
+
+.message {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contact-form {
+    flex-wrap: wrap;
+    height: 600%;
+}
