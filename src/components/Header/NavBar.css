@@ -17,17 +17,19 @@
 .navItems {
     display: flex;
     margin-left: auto;
+    margin-top: auto;
 
 }
 
 .navItems li {
     margin-left: 25px;
+    
 }
 
 
 .navBarName {
-    font-size:805%;
+    font-size:505%;
     font-style: oblique;
-    
+    margin: auto;
   text-shadow: 5px 5px 5px rgb(145, 112, 112);
 }
