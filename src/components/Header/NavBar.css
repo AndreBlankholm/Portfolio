@@ -1,5 +1,5 @@
 .navBar {
-   background-color:lightblue ;
+    background-image: linear-gradient(rgb(167, 221, 244), white);
    height: 9rem;
 }
 
@@ -25,3 +25,9 @@
 }
 
 
+.navBarName {
+    font-size:805%;
+    font-style: oblique;
+    
+  text-shadow: 5px 5px 5px rgb(145, 112, 112);
+}
