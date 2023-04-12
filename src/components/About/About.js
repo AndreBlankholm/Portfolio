@@ -16,7 +16,7 @@ function About() {
         <div>
           <p className="text">About Me</p>
           <h2>Hello, I'm Andre</h2>
-          <p className="about-p1">
+          <p className="about-ptags">
             I am a recent web developer graduate from the University of
             Minnesota’s coding boot camp with an earned certificate in
             full-stack web development. The UofM’s coursework includes 240 hours
@@ -37,6 +37,9 @@ function About() {
             the company I am placed with, learn the goals, and become a team
             member that helps to achieve those goals. Thank you for taking the
             time to review my profile..
+          </p>
+          <p>
+            Best, Andre Blankholm
           </p>
         </div>
       </div>
