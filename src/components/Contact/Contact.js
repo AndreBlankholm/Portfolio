@@ -56,7 +56,7 @@ function Contact() {
         </div>
         <section>
           <h1> Contact me </h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
+          <form className="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>
               <input
@@ -77,7 +77,7 @@ function Contact() {
             </div>
             <div>
               <label htmlFor="message">Message:</label>
-              <textarea placeholder="Type anything…"
+              <textarea placeholder="something…"
                 name="message"
                 defaultValue={message}
                 onBlur={handleChange}
