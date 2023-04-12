@@ -1,4 +1,4 @@
-.navBar {
+.navBar-container {
   background-image: linear-gradient(rgb(167, 221, 244), white);
   height: 9rem;
 }
@@ -11,21 +11,23 @@
 .navBarTitle {
   height: auto;
   width: fit-content;
+  font-size: 2rem;
 }
 
 .navItems {
   display: flex;
   margin-left: auto;
   margin-top: auto;
+  font-size: 2rem;
 }
 
 .navItems li {
   margin-left: 25px;
+  justify-content: space-evenly;
 }
 
+
 .navBarName {
-  font-size: 505%;
-  font-style: oblique;
   margin: auto;
-  text-shadow: 5px 5px 5px rgb(145, 112, 112);
 }
+

@@ -1,5 +1,21 @@
 .text {
-    font-size: 4vh;
-    text-align: center;
+  font-size: 4vh;
+  text-align: center;
 }
 
+.profile-image {
+  border: solid red;
+  border-radius: 50%;
+  height: 300px;
+}
+
+.about-container {
+}
+
+.photo-and-text-container {
+    display: flex;
+}
+
+.about-p1 {
+ 
+}

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="navBar">
+    <div className="navBar-container">
       <nav className="nav">
         <div className="navBarTitle">
             <h2 className="navBarName">Andre Blankholm</h2>
