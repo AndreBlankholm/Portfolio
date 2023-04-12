@@ -1,5 +1,6 @@
 .navBar {
    background-color:lightblue ;
+   height: 9rem;
 }
 
 .nav {
@@ -7,9 +8,11 @@
     padding: 20px;
 }
 
-.navBarTitle {
-    
+.navBarTitle{
+    height: auto;
+    width: fit-content;
 }
+
 
 .navItems {
     display: flex;
@@ -20,3 +23,5 @@
 .navItems li {
     margin-left: 25px;
 }
+
+

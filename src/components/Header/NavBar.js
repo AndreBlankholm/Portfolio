@@ -7,7 +7,7 @@ function NavBar() {
     <div className="navBar">
       <nav className="nav">
         <div className="navBarTitle">
-            Andre Blankholm
+            <h2> Andre Blankholm</h2>
         </div>
         <ul className="navItems">
           <li>
