@@ -1,4 +1,4 @@
-.text {
+.about-me{
   font-size: 4vh;
   text-align: center;
 }
@@ -16,6 +16,16 @@
     display: flex;
 }
 
+.introduction {
+    display: flex;
+    align-items: center;
+    border: solid red;
+    
+    
+    
+}
+
 .about-ptags {
  padding: 20px;
+ border:solid blue
 }

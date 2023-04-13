@@ -5,17 +5,18 @@ function About() {
   return (
     <div className="about-container">
       <div className="photo-and-text-container">
-        <div>
+        <div className="introduction">
           <img
             className="profile-image"
-            src={require("../../assests/images/best-image-ever.jpg")}
+            src={require("../../assests/images/Portfolio.png")}
             alt="Andre Blankolm smiling at you"
           ></img>
+          <h2>Hello, I'm Andre</h2>
         </div>
 
         <div>
-          <p className="text">About Me</p>
-          <h2>Hello, I'm Andre</h2>
+          <p className="about-me">About Me</p>
+
           <p className="about-ptags">
             I am a recent web developer graduate from the University of
             Minnesota’s coding boot camp with an earned certificate in
@@ -38,9 +39,7 @@ function About() {
             member that helps to achieve those goals. Thank you for taking the
             time to review my profile..
           </p>
-          <p>
-            Best, Andre Blankholm
-          </p>
+          <p>Best, Andre Blankholm</p>
         </div>
       </div>
     </div>
