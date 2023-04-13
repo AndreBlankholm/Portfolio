@@ -9,11 +9,26 @@
 }
 
 .intro h2 {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding: 10px;
   margin-left: 60px;
   width: 25vw;
+}
+
+.icon-div {
+  border: solid black;
+}
+
+.uofm-icon-image {
+  height: 150px;
+  width: 150px;
+  
+}
+
+
+.container-about-me {
+  width: 50%;
 }
 
 .introduction {
@@ -32,4 +47,5 @@
 .about-ptags {
   padding: 20px;
   border: solid blue;
+  
 }

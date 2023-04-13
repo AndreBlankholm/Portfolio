@@ -8,13 +8,23 @@ function About() {
         <img
           className="profile-image"
           src={require("../../assests/images/Portfolio.png")}
-          alt="Andre Blankolm smiling at you"
+          alt="Andre Blankolm's straight faced"
         ></img>
         <div className="intro">
           <h2>
-            Hello, I'm Andre Blankholm. A FullStack Developer and all around
-            good person.
+            Hello, I'm Andre Blankholm. 
           </h2>
+          <h3>
+          I am a University of
+          Minnesota’s coding boot camp graduate.
+          </h3>
+          <div className="icon-div">
+          <img
+          className="uofm-icon-image"
+          src={require("../../assests/images/best-course-ever.png")}
+          alt="Andre Blankolm's straight faced"
+        ></img>
+          </div>
         </div>
       </div>
 
@@ -29,7 +39,7 @@ function About() {
           experience and I had a lot of fun knowing that I can achieve tangible
           results in the amount of time allowed.
         </p>
-        <p>
+        <p className="about-ptags">
           I am currently looking for a career change into the Tech Industry that
           allows me to hone my critical thinking and analytical skills in this
           type of environment. When you look at my decade’s long job history
