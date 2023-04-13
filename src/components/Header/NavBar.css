@@ -1,17 +1,19 @@
 .navBar-container {
   background-image: linear-gradient(rgb(167, 221, 244), white);
-  height: 9rem;
+  
 }
 
 .nav {
   display: flex;
   padding: 20px;
+ 
 }
 
 .navBarTitle {
   height: auto;
   width: fit-content;
   font-size: 2rem;
+  border: solid rgb(18, 148, 53);
 }
 
 .navItems {
@@ -19,6 +21,7 @@
   margin-left: auto;
   margin-top: auto;
   font-size: 2rem;
+  
 }
 
 .navItems li {
@@ -29,5 +32,7 @@
 
 .navBarName {
   margin: auto;
+  font-size: 60px;
+  justify-content: space-between;
 }
 

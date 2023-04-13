@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about-container">
+    
       <div className="photo-and-text-container">
         <div className="introduction">
           <img
@@ -42,7 +42,7 @@ function About() {
           <p>Best, Andre Blankholm</p>
         </div>
       </div>
-    </div>
+   
   );
 }
 
