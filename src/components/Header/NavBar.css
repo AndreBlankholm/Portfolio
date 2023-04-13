@@ -1,12 +1,12 @@
 .navBar-container {
   background-image: linear-gradient(rgb(167, 221, 244), white);
-  
+ 
 }
 
 .nav {
   display: flex;
   padding: 20px;
- 
+  flex-wrap: wrap;
 }
 
 .navBarTitle {

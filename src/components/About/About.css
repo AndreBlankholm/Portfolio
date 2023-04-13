@@ -1,13 +1,5 @@
-
 .about-container {
   display: flex;
-}
-
-
-
-.about-me{
-  font-size: 4vh;
-  text-align: center;
 }
 
 .profile-image {
@@ -16,17 +8,28 @@
   height: 300px;
 }
 
-
-
+.intro h2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 60px;
+  width: 25vw;
+}
 
 .introduction {
-    display: flex;
-    align-items: center;
-    border: solid red;
-    justify-content: space-evenly;    
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  border: solid red;
+  justify-content: space-evenly;
+}
+
+.about-me-header {
+  font-size: 4vh;
+  text-align: center;
 }
 
 .about-ptags {
- padding: 20px;
- border:solid blue
+  padding: 20px;
+  border: solid blue;
 }
