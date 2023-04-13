@@ -11,19 +11,23 @@ function About() {
           alt="Andre Blankolm's straight faced"
         ></img>
         <div className="intro">
-          <h2>
-            Hello, I'm Andre Blankholm. 
-          </h2>
-          <h3>
-          I am a University of
-          Minnesota’s coding boot camp graduate.
-          </h3>
+          <h2>Hello, I'm Andre Blankholm.</h2>
+          <br/>
+          <h3>I am a University of Minnesota’s coding boot camp graduate.</h3>
+
           <div className="icon-div">
-          <img
-          className="uofm-icon-image"
-          src={require("../../assests/images/best-course-ever.png")}
-          alt="Andre Blankolm's straight faced"
-        ></img>
+            <a
+              href="https://www.credly.com/go/Z4p4SKu7BOWD9JIqYXUVKg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="uofm-icon-image"
+                src={require("../../assests/images/best-course-ever.png")}
+                alt="Full Stack web Devlopment Icon from the University of Minnesota"
+                
+              ></img>
+            </a>
           </div>
         </div>
       </div>
@@ -32,28 +36,21 @@ function About() {
         <p className="about-me-header">About Me</p>
 
         <p className="about-ptags">
-          I am a recent web developer graduate from the University of
-          Minnesota’s coding boot camp with an earned certificate in full-stack
-          web development. The UofM’s coursework includes 240 hours of
-          individual and group activities. The bootcamp was a great learning
-          experience and I had a lot of fun knowing that I can achieve tangible
-          results in the amount of time allowed.
-        </p>
-        <p className="about-ptags">
           I am currently looking for a career change into the Tech Industry that
           allows me to hone my critical thinking and analytical skills in this
-          type of environment. When you look at my decade’s long job history
-          with the Minnesota Department of Transportation, please find that I am
-          trainable and have a multi-year track record of meeting and or
-          exceeding expectations which includes voluntary training and
-          leadership programs. I feel that this position is a great first step
-          forward in my career and I'll give my best to contribute and grow
-          together with the company. I want to work hard and provide value to
-          the company I am placed with, learn the goals, and become a team
-          member that helps to achieve those goals. Thank you for taking the
-          time to review my profile..
+          type of environment.
         </p>
-        <p>Best, Andre Blankholm</p>
+        <p className="about-ptags">
+          When you look at my decade’s long job history with the Minnesota
+          Department of Transportation, please find that I am trainable and have
+          a multi-year track record of meeting and or exceeding expectations
+          which includes voluntary training and leadership programs. Thank you
+          for taking the time to review my profile..
+          <br></br>
+          <br></br>
+          Best, <br />
+          Andre Blankholm
+        </p>
       </div>
     </div>
   );
