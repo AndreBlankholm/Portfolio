@@ -10,7 +10,7 @@ function Footer() {
     return(
         <>
         <div>
-            <h1 className="text">Footer</h1>
+            <h1 className="text">Experience with</h1>
         </div>
         <div>
         <ul className="icon-container">

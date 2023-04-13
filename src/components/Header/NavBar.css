@@ -1,5 +1,5 @@
 .navBar-container {
-  background-image: linear-gradient(rgb(167, 221, 244), white);
+  background-image: linear-gradient(rgb(120, 28, 23) , white);
  
 }
 
@@ -13,7 +13,11 @@
   height: auto;
   width: fit-content;
   font-size: 2rem;
-  border: solid rgb(18, 148, 53);
+  
+}
+
+.navBarTitle h2 {
+  color: white;
 }
 
 .navItems {
