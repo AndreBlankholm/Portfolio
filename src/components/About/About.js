@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="container-header-main">
+    <div className="container-header">
       <div className="introduction">
         <img
           className="profile-image"

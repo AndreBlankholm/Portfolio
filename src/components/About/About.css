@@ -1,10 +1,9 @@
 .container-header-main {
-  background-image: linear-gradient(white, rgb(230, 191, 189));
+  background-image: linear-gradient(white, rgb(234, 208, 206));
 }
 
 .about-container {
   display: flex;
-  background-color: rgb(255, 115, 0);
 }
 
 .introduction {
@@ -12,7 +11,7 @@
 }
 
 .profile-image {
-  border: solid 5px rgb(189, 95, 90);
+  border: solid 5px rgb(164, 81, 77);
   border-radius: 50%;
   height: 350px;
 }
@@ -64,7 +63,6 @@
   height: 40vh;
   display: flex;
   align-items: center;
-  border: solid red;
   justify-content: space-evenly;
 }
 
@@ -79,7 +77,6 @@
 .about-ptags {
   padding: 10px 90px 10px 90px;
   margin: auto;
-  border: solid blue;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
 }

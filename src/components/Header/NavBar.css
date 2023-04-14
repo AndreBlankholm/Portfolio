@@ -1,5 +1,5 @@
 .navBar-container {
-  background-image: linear-gradient(rgb(120, 28, 23) , white);
+  background-image: linear-gradient(rgb(208, 197, 197) , white);
  
 }
 
@@ -17,7 +17,8 @@
 }
 
 .navBarTitle h2 {
-  color: white;
+  color: rgb(108, 11, 6) ;
+  font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navItems {
@@ -36,7 +37,7 @@
 
 .navBarName {
   margin: auto;
-  font-size: 60px;
+  font-size: 40px;
   justify-content: space-between;
 }
 
