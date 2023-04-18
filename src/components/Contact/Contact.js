@@ -1,10 +1,22 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css"
+import "./Contact.css";
+import Box from "@mui/material/Box";
+import FilledInput from "@mui/material/FilledInput";
+import FormControl from "@mui/material/FormControl";
+import FormHelperText from "@mui/material/FormHelperText";
+import Input from "@mui/material/Input";
+import InputLabel from "@mui/material/InputLabel";
+import OutlinedInput from "@mui/material/OutlinedInput";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import validateEmail from '../../utils/helpers';
 
 export const Contact = () => {
-  const form = useRef();
 
+
+
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -18,29 +30,51 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log('messege sent!')
+          console.log("messege sent!");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
-   //make sure your variables in the return are the same on you emailjs site
+  //make sure your variables in the return are the same on you emailjs site
   return (
-    
-    <div className="contact">
+    <div className="form-container">
       <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+        <FormControl variant="standard">
+          <InputLabel htmlFor="component-simple">Name</InputLabel>
+          <OutlinedInput
+            id="component-outlined"
+            defaultValue=""
+            type="text"
+            name="user_name"
+          />
+        </FormControl>
+        <FormControl variant="standard">
+          <InputLabel htmlFor="component-simple">Email</InputLabel>
+          <OutlinedInput
+            id="component-outlined"
+            defaultValue=""
+            label="Name"
+            type="email"
+            name="user_email"
+          />
+        </FormControl>
+        <TextField
+          id="outlined-multiline-static"
+          name="message"
+          label="Message Me"
+          multiline
+          rows={4}
+          defaultValue=""
+        />
+
+        <Button variant="outlined" type="submit" value="Send">
+          Submit
+        </Button>
+      </form>
     </div>
   );
 };
-
 
 export default Contact;

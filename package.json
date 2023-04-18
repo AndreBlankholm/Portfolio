@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "tailwindcss": "^3.3.1",
     "webpack-cli": "^5.0.1"
   }
 }
