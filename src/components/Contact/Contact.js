@@ -1,16 +1,12 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import Box from "@mui/material/Box";
-import FilledInput from "@mui/material/FilledInput";
 import FormControl from "@mui/material/FormControl";
-import FormHelperText from "@mui/material/FormHelperText";
-import Input from "@mui/material/Input";
 import InputLabel from "@mui/material/InputLabel";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import validateEmail from '../../utils/helpers';
+
 
 export const Contact = () => {
 
@@ -39,8 +35,9 @@ export const Contact = () => {
   };
   //make sure your variables in the return are the same on you emailjs site
   return (
-    <div className="form-container">
-      <form ref={form} onSubmit={sendEmail}>
+    <section className="Contact-container">
+      <div className="form-container">
+      <form className="form" ref={form} onSubmit={sendEmail}>
         <FormControl variant="standard">
           <InputLabel htmlFor="component-simple">Name</InputLabel>
           <OutlinedInput
@@ -74,6 +71,7 @@ export const Contact = () => {
         </Button>
       </form>
     </div>
+    </section>
   );
 };
 
