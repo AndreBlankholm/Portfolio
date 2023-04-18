@@ -7,11 +7,7 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-
 export const Contact = () => {
-
-
-
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,42 +31,58 @@ export const Contact = () => {
   };
   //make sure your variables in the return are the same on you emailjs site
   return (
-    <section className="Contact-container">
+    <section className="contact-container">
       <div className="form-container">
-      <form className="form" ref={form} onSubmit={sendEmail}>
-        <FormControl variant="standard">
-          <InputLabel htmlFor="component-simple">Name</InputLabel>
-          <OutlinedInput
-            id="component-outlined"
-            defaultValue=""
-            type="text"
-            name="user_name"
-          />
-        </FormControl>
-        <FormControl variant="standard">
-          <InputLabel htmlFor="component-simple">Email</InputLabel>
-          <OutlinedInput
-            id="component-outlined"
-            defaultValue=""
-            label="Name"
-            type="email"
-            name="user_email"
-          />
-        </FormControl>
-        <TextField
-          id="outlined-multiline-static"
-          name="message"
-          label="Message Me"
-          multiline
-          rows={4}
-          defaultValue=""
-        />
+        <form className="form" ref={form} onSubmit={sendEmail}>
+          <div className="row">
+            <FormControl className="row" variant="standard">
+              <InputLabel htmlFor="component-simple">Name</InputLabel>
+              <OutlinedInput
+                id="component-outlined"
+                defaultValue=""
+                type="text"
+                name="user_name"
+              />
+            </FormControl>
+          </div>
+          <div className="row">
+            <FormControl className="row" variant="standard">
+              <InputLabel htmlFor="component-simple">Email</InputLabel>
+              <OutlinedInput
+                id="component-outlined"
+                defaultValue=""
+                label="Name"
+                type="email"
+                name="user_email"
+              />
+            </FormControl>
+          </div>
+          <div className="row">
+            <TextField
+              className="row"
+              id="outlined-multiline-static"
+              name="message"
+              label="Message Me"
+              multiline
+              rows={4}
+              defaultValue=""
+            />
+          </div>
 
-        <Button variant="outlined" type="submit" value="Send">
-          Submit
-        </Button>
-      </form>
-    </div>
+          <div className="row">
+            <Button
+              className="row "
+              variant="outlined"
+              type="submit"
+              value="Send"
+            >
+              Submit
+            </Button>
+          </div>
+        </form>
+      </div>
+      <div><h1>section 2</h1></div>
+      <div><h1>section 3</h1></div>
     </section>
   );
 };

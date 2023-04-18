@@ -1,17 +1,27 @@
+
 .contact-container {
-    display: flex;
+    background-color: aqua;
+    margin-top: 2%;
+    
 }
 
+
+
 .form-container {
-    
-    background-color: rgb(187, 179, 204);
-    align-items: center;
-;
+    display: flex;
+    background-color: rgb(215, 247, 166);
+    padding: 20px;
+    margin: auto;
+    border: solid 5px rgb(11, 6, 6);
 }
 
 .form {
-align-items: center;
+   display: block;
+   border: solid 5px rgb(164, 81, 77);
+   margin-left: auto;
+   margin-right: auto;
+   
 }
-
-
-
+.row {
+   width: 100%;
+}
