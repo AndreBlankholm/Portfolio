@@ -6,11 +6,6 @@ import InputLabel from "@mui/material/InputLabel";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import { Grid } from "@mui/joy";
 
 export const Contact = () => {
   const form = useRef();
@@ -40,8 +35,9 @@ export const Contact = () => {
       <div className="form-container">
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div className="row">
-            <FormControl className="row"  variant="standard" required >
-              <InputLabel htmlFor="component-simple" >Name</InputLabel>
+            <h1>Contact Me</h1>
+            <FormControl className="row" variant="standard" required>
+              <InputLabel htmlFor="component-simple">Name</InputLabel>
               <OutlinedInput
                 id="component-outlined"
                 defaultValue=""
@@ -51,7 +47,7 @@ export const Contact = () => {
             </FormControl>
           </div>
           <div className="row">
-            <FormControl className="row" variant="standard" required >
+            <FormControl className="row" variant="standard" required>
               <InputLabel htmlFor="component-simple">Email</InputLabel>
               <OutlinedInput
                 id="component-outlined"
@@ -71,7 +67,7 @@ export const Contact = () => {
               multiline
               rows={4}
               defaultValue=""
-              required 
+              required
             />
           </div>
 
@@ -86,17 +82,19 @@ export const Contact = () => {
             </Button>
           </div>
         </form>
+        <div className="i-frame-container">
+          <h1>I AM LOCATED IN COTTAGE GROVE MINNESOTA</h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90568.12400075485!2d-93.0243668840206!3d44.81639237404564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7d001bd0cdabf%3A0xafbfc7433e84312!2sCottage%20Grove%2C%20MN!5e0!3m2!1sen!2sus!4v1681854120597!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="100%"
+            height="100%"
+            width="100%"
+          ></iframe>
+        </div>
       </div>
-      <div>
-       <Card>
-        <CardContent>
-          <Grid>
-
-          </Grid>
-        </CardContent>
-       </Card>
-      </div>
-      <div><h1>section 3</h1></div>
     </section>
   );
 };
