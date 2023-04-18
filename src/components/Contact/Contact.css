@@ -1,27 +1,23 @@
-
 .contact-container {
-    background-color: aqua;
-    margin-top: 2%;
-    
+  margin-top: 2%;
 }
 
-
-
 .form-container {
-    display: flex;
-    background-color: rgb(215, 247, 166);
-    padding: 20px;
-    margin: auto;
-    border: solid 5px rgb(11, 6, 6);
+  display: flex;
+
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px rgb(11, 6, 6);
 }
 
 .form {
-   display: block;
-   border: solid 5px rgb(164, 81, 77);
-   margin-left: auto;
-   margin-right: auto;
-   
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
-   width: 100%;
+  width: 100%;
+  margin: 10%;
 }

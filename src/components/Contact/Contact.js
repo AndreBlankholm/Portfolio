@@ -6,6 +6,11 @@ import InputLabel from "@mui/material/InputLabel";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import { Grid } from "@mui/joy";
 
 export const Contact = () => {
   const form = useRef();
@@ -35,8 +40,8 @@ export const Contact = () => {
       <div className="form-container">
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div className="row">
-            <FormControl className="row" variant="standard">
-              <InputLabel htmlFor="component-simple">Name</InputLabel>
+            <FormControl className="row"  variant="standard" required >
+              <InputLabel htmlFor="component-simple" >Name</InputLabel>
               <OutlinedInput
                 id="component-outlined"
                 defaultValue=""
@@ -46,7 +51,7 @@ export const Contact = () => {
             </FormControl>
           </div>
           <div className="row">
-            <FormControl className="row" variant="standard">
+            <FormControl className="row" variant="standard" required >
               <InputLabel htmlFor="component-simple">Email</InputLabel>
               <OutlinedInput
                 id="component-outlined"
@@ -66,6 +71,7 @@ export const Contact = () => {
               multiline
               rows={4}
               defaultValue=""
+              required 
             />
           </div>
 
@@ -81,7 +87,15 @@ export const Contact = () => {
           </div>
         </form>
       </div>
-      <div><h1>section 2</h1></div>
+      <div>
+       <Card>
+        <CardContent>
+          <Grid>
+
+          </Grid>
+        </CardContent>
+       </Card>
+      </div>
       <div><h1>section 3</h1></div>
     </section>
   );
