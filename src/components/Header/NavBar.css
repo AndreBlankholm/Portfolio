@@ -1,24 +1,25 @@
 .navBar-container {
-  background-image: linear-gradient(rgb(208, 197, 197) , white);
- 
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .nav {
   display: flex;
   padding: 20px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .navBarTitle {
   height: auto;
   width: fit-content;
   font-size: 2rem;
-  
 }
 
 .navBarTitle h2 {
-  color: rgb(108, 11, 6) ;
-  font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(108, 11, 6);
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .navItems {
@@ -26,18 +27,20 @@
   margin-left: auto;
   margin-top: auto;
   font-size: 2rem;
-  
+  flex-wrap: wrap;
 }
 
 .navItems li {
-  margin-left: 25px;
+  margin: auto;
+  padding: 4px;
   justify-content: space-evenly;
 }
 
-
 .navBarName {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
   font-size: 40px;
   justify-content: space-between;
+  align-items: center;
 }
-

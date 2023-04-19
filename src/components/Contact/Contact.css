@@ -1,6 +1,6 @@
 .contact-container {
   margin-top: 2%;
-  background-color: rgb(228, 169, 169);
+  
   height: 75vh;
 }
 
@@ -11,14 +11,15 @@
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 9px rgb(23, 5, 5);
   height: 100%;
 }
 
 .form {
   margin: auto;
-  border: solid 2px rgb(128, 0, 255);
-  height: auto;
+  height: 90%;
+  text-align: center;
+  font-size: 50px;
+  color:rgb(120, 28, 23) ;
 }
 .row {
   width: 100%;
@@ -36,11 +37,24 @@
   width: 50%;
   height: 90%;
   justify-content: center;
-  border: solid 9px rgb(0, 225, 255);
+  margin-right: 40px;
 }
 
 .i-frame-container h1 {
   font-size: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  color:rgb(120, 28, 23) ;
+  font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .form {
+        display: inline;
+        
+        align-items: center;
+    }
 }

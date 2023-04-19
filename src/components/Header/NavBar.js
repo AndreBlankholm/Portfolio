@@ -9,7 +9,8 @@ function NavBar() {
         <div className="navBarTitle">
             <h2 className="navBarName">Andre Blankholm</h2>
         </div>
-        <ul className="navItems">
+       <div className="navbarLinks">
+       <ul className="navItems">
           <li>
             <NavLink to={"/"}>About</NavLink>
           </li>
@@ -23,6 +24,7 @@ function NavBar() {
             <NavLink to={"contact"}>Contact</NavLink>
           </li>
         </ul>
+       </div>
       </nav>
     </div>
   );

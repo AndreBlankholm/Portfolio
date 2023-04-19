@@ -33,7 +33,7 @@ export const Contact = () => {
   return (
     <section className="contact-container">
       <div className="form-container">
-        <form className="form" ref={form} onSubmit={sendEmail}>
+        <form className="form" md={12} ref={form} onSubmit={sendEmail}>
           <div className="row">
             <h1>Contact Me</h1>
             <FormControl className="row" variant="standard" required>

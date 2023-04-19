@@ -11,17 +11,22 @@ a {
     text-decoration: none;
 }
 
+ul li {
+    color: rgb(108, 11, 6);
+}
+
 ul li a:hover {
-    color: black;
+    color: rgb(205, 116, 116);
 }
 
 a:hover {
-    color: black;
+    color: rgb(208, 255, 0);
 }
 
 a.active {
-    background-color: crimson;
-    color: white;
+    background-color:gold;
+    color:rgb(108, 11, 6);
+    border-radius: 50%;
 }
 
 a {
