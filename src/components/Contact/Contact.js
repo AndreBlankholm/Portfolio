@@ -88,7 +88,7 @@ export const Contact = () => {
           <iframe className="i-frame-link"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90568.12400075485!2d-93.0243668840206!3d44.81639237404564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7d001bd0cdabf%3A0xafbfc7433e84312!2sCottage%20Grove%2C%20MN!5e0!3m2!1sen!2sus!4v1681854120597!5m2!1sen!2sus"
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
             title="100%"
             height="100%"
             width="100%"
