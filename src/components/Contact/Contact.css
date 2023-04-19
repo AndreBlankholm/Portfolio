@@ -51,6 +51,7 @@
 
 .i-frame-link {
   border: solid 5px rgb(120, 28, 23);
+  border-radius: 10%;
 }
 
 
