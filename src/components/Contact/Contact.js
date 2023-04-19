@@ -7,6 +7,12 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
+
+
+
+
+
+
 export const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -38,7 +44,7 @@ export const Contact = () => {
           <form className="form" md={12} ref={form} onSubmit={sendEmail}>
             <div className="h1-name-container">
               <h1>Contact Me</h1>
-              <FormControl className="" variant="standard" required>
+              <FormControl className="" variant="standard" required color="warning">
                 <InputLabel htmlFor="component-simple">Name</InputLabel>
                 <OutlinedInput
                   className="control"
