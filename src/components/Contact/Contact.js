@@ -54,7 +54,7 @@ export const Contact = () => {
                   name="user_name"
                 />
               </FormControl>
-              <FormControl className="row" variant="standard" required>
+              <FormControl className="row" variant="standard" required color="warning">
                 <InputLabel htmlFor="component-simple">Email</InputLabel>
                 <OutlinedInput
                   className="control"
@@ -75,6 +75,7 @@ export const Contact = () => {
                 rows={4}
                 defaultValue=""
                 required
+                color="warning"
               />
               <div className="button">
                 <Button
