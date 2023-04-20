@@ -70,7 +70,13 @@
 }
 
 .i-frame-link {
-  border: solid 3px rgb(120, 28, 23);
+  border: solid 2px rgb(189, 177, 177);
   border-radius: 5%;
   height: 100%;
+}
+
+.formset {
+  color: rgb(120, 28, 23) !important;
+  font-size: 30px !important;
+  
 }

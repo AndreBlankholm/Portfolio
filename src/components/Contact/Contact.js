@@ -13,7 +13,11 @@ import Button from "@mui/material/Button";
 
 
 
+
 export const Contact = () => {
+
+
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,8 +48,8 @@ export const Contact = () => {
           <form className="form" md={12} ref={form} onSubmit={sendEmail}>
             <div className="h1-name-container">
               <h1>Contact Me</h1>
-              <FormControl className="" variant="standard" required color="warning">
-                <InputLabel htmlFor="component-simple">Name</InputLabel>
+              <FormControl className="formset" variant="standard" required color="primary">
+                <InputLabel htmlFor="component-simple"  >Name</InputLabel>
                 <OutlinedInput
                   className="control"
                   id="component-outlined"
@@ -55,7 +59,7 @@ export const Contact = () => {
                 />
               </FormControl>
               <FormControl className="row" variant="standard" required color="warning">
-                <InputLabel htmlFor="component-simple">Email</InputLabel>
+                <InputLabel htmlFor="component-simple" >Email</InputLabel>
                 <OutlinedInput
                   className="control"
                   id="component-outlined"
@@ -67,19 +71,21 @@ export const Contact = () => {
               </FormControl>
 
               <TextField
-                className="control"
+              className="formset"
                 id="outlined-multiline-static"
                 name="message"
-                label="Message Me"
+                label="message here"
                 multiline
                 rows={4}
                 defaultValue=""
                 required
                 color="warning"
-              />
+              ></TextField>
               <div className="button">
+
+
                 <Button
-                  
+                  className="formset"
                   variant="outlined"
                   type="submit"
                   value="Send"
