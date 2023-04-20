@@ -49,7 +49,7 @@ export const Contact = () => {
             <div className="h1-name-container">
               <h1>Contact Me</h1>
               <FormControl className="formset" variant="standard" required color="primary">
-                <InputLabel htmlFor="component-simple"  >Name</InputLabel>
+                <InputLabel htmlFor="component-simple" className="formset" >Name</InputLabel>
                 <OutlinedInput
                   className="control"
                   id="component-outlined"
@@ -59,7 +59,7 @@ export const Contact = () => {
                 />
               </FormControl>
               <FormControl className="row" variant="standard" required color="warning">
-                <InputLabel htmlFor="component-simple" >Email</InputLabel>
+                <InputLabel htmlFor="component-simple" className="formset">Email</InputLabel>
                 <OutlinedInput
                   className="control"
                   id="component-outlined"
@@ -71,7 +71,7 @@ export const Contact = () => {
               </FormControl>
 
               <TextField
-              className="formset"
+              
                 id="outlined-multiline-static"
                 name="message"
                 label="message here"
@@ -80,6 +80,7 @@ export const Contact = () => {
                 defaultValue=""
                 required
                 color="warning"
+                
               ></TextField>
               <div className="button">
 
