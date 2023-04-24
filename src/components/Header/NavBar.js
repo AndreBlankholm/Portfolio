@@ -3,6 +3,9 @@ import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
+
+
+  
   return (
     <div className="navBar-container">
       <nav className="nav">
