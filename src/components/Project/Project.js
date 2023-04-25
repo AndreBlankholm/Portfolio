@@ -25,7 +25,7 @@ function Project(props) {
             <Typography gutterBottom variant="h5" component="div">
               {project.title}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body3" color="text.primary">
              {project.description} 
             </Typography>
           </CardContent>
