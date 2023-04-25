@@ -1,7 +1,9 @@
 
 .portfolio {
-    background-color: rgb(191, 140, 140);
-    height: 600px;
+       
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .portfolio h1  {
