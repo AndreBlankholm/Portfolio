@@ -18,6 +18,9 @@ function Modal(props) {
           <p>
           <a href={currentProject.github}>GitHub: {currentProject.github}</a>
           </p>
+          <p>
+          <a href={currentProject.deployment}>Deployment: {currentProject.deployment}</a>
+          </p>
           
           </div>        
         <button type="button" onClick={() => onClose(currentProject.id)}>Close this modal</button>

@@ -41,7 +41,7 @@ function Portfolio() {
         "A web app that will search GitHub for open source projects, dispaly them and the open issues",
       tools: "MySQL, Bootstrap, Handlebars.js",
       github: "https://andreblankholm.github.io/github-opensource-directory/",
-      deployment: "",
+      deployment:"N/A",
     },
     {
       id: 4,
