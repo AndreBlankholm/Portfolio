@@ -3,7 +3,6 @@
 .project-container {
     display: flex;
     flex-wrap: wrap;
-    
     padding:  5px;
     margin: 4px;
     
@@ -12,5 +11,5 @@
 
 .row {
     display: flex;
-    
 }
+

@@ -1,15 +1,20 @@
 import React from "react";
-import './Modal';
+import './Modal.css';
 
-function Modal() {
+
+function Modal(props) {
+  const {currentProject, onClose} = props;
+  
   return (
     // JSX
-    <div className="modalBackdrop">
+    
+    
+    <div className="modalBackdrop" >
       <div className="modalContainer">
-        <h3 className="modalTitle">Photo Name</h3>
-        <img alt="current category" />
-        <p>Photo Description</p>
-        <button type="button">Close this modal</button>
+        <h3 className="modalTitle">{currentProject.title}</h3>
+        <img src={require(`../../assests/images/img_folder/${currentProject.img}`)} alt={currentProject.alt} />
+        <p>{currentProject.description}</p>
+        <button type="button" onClick={() => onClose(currentProject.id)}>Close this modal</button>
       </div>
     </div>
   );

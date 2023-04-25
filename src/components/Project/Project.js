@@ -6,19 +6,22 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import "./Projects.css";
 
+
 //imports props from portfolio
 
 function Project(props) {
-  const { project } = props;
 
+  const { project, onCardClicked } = props;
+  
+  
   return (
-    <section className="project-container">
-      <Card sx={{ maxWidth: 395 }} className="row">
+    <section className="project-container"  onClick={() => onCardClicked(project.id)}>
+      <Card sx={{ maxWidth: 245 }} className="row">
         <CardActionArea >
-          <CardMedia
+          <CardMedia className="color"
             component="img"
             height="140"
-            image={require(`../../assests/images/img_folder/${project.img_folder}`)}
+            image={require(`../../assests/images/img_folder/${project.img}`)}
             alt={`${project.alt}`}
           />
           <CardContent>
