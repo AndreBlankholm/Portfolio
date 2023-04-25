@@ -13,7 +13,13 @@ function Modal(props) {
       <div className="modalContainer">
         <h3 className="modalTitle">{currentProject.title}</h3>
         <img src={require(`../../assests/images/img_folder/${currentProject.img}`)} alt={currentProject.alt} />
-        <p>{currentProject.description}</p>
+        <p>Description:  {currentProject.description}</p>
+        <div>
+          <p>
+          <a href={currentProject.github}>GitHub: {currentProject.github}</a>
+          </p>
+          
+          </div>        
         <button type="button" onClick={() => onClose(currentProject.id)}>Close this modal</button>
       </div>
     </div>

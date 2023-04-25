@@ -1,5 +1,6 @@
 .modalBackdrop {
-    background: rgba(252, 250, 250, 0.65);
+    background: rgba(255, 255, 255, 0.883);
+    
     bottom: 0;
     left: 0;
     overflow: auto;
@@ -11,30 +12,37 @@
   }
 
   .modalContainer {
-    background: rgb(193, 155, 157);
+    background: rgba(210, 189, 190, 0.702);
+    
     border-radius: 5px;
     max-width: 100%;
     margin: 50px auto;
     padding: 25px;
     width: 960px;
-    border: solid red;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
   .modalContainer h3  {
-    color: #fff;
+    color:  rgb(120, 28, 23);
     font-size: 3rem;
     margin-right: auto;
     margin-left: auto;
   }
 
   .modalContainer p {
-    color: #fff;
+    color:  rgb(120, 28, 23);
     font-size: 1.25rem;
+    font-weight: bold;
     margin-right: 30px;
     margin-left: 30px;
+  }
+
+  .modalContainer img{
+    border: solid 2px rgba(120, 28, 23, 0.896);
+    border-radius: 2%;
   }
 
   .modalTitle {
@@ -46,13 +54,13 @@
 
   
   
-  button {
+  .modalContainer button {
     background: var(--primary);
-    border: solid ;
+    border: solid  rgb(120, 28, 23);
     border-radius: 5px;
-    color: #fff;
+    color:  rgb(120, 28, 23);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
     margin-right: auto;
     margin-left: auto;
