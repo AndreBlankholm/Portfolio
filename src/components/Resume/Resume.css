@@ -1,13 +1,15 @@
 
-.dicSize {
+.divSize {
     display: flex;
     flex-wrap: wrap;
+    height: 70vh;
+   
 }
 
 .display {
     
     
     width: 100%;
-    height: 98vh;
+    
 }
 

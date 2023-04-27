@@ -1,4 +1,11 @@
 
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+}
+
 .text {
     font-size: 300%;
     text-align: center;
@@ -13,7 +20,7 @@
 }
 
 .icon {
-    height: 70px;
+    height: 70px !important;
     width: 70px;
     margin: 10px;
 }

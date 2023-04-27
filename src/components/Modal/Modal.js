@@ -19,7 +19,7 @@ function Modal(props) {
         </div>
         <div className="hyperLinks">
           <p>
-            Links
+            Links:
           </p>
           <p>
             <a href={currentProject.github}>GitHub: {currentProject.github}</a>

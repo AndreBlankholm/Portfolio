@@ -1,6 +1,6 @@
 import React from "react";  
 import './Footer.css';
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 
@@ -9,7 +9,9 @@ function Footer() {
 
     return(
         <>
-        
+        <div className="social-icons">
+          <GitHubIcon/>
+        </div>
         <div>
         <ul className="icon-container">
           <li className="def">
