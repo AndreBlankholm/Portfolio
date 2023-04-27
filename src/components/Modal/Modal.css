@@ -31,13 +31,6 @@
     margin-left: auto;
   }
 
-  .description {
-    color:  rgb(120, 28, 23);
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-right: 30px;
-    margin-left: 30px;
-  }
 
   .modalContainer img{
     border: solid 2px rgba(120, 28, 23, 0.896);
@@ -51,12 +44,26 @@
     margin-bottom: 25px;
   }
 
+  .description {
+    color:  rgb(120, 28, 23);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+
   .hyperLinks {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 5px;
     padding: 5px;
     margin-right: auto;
     margin-left: auto;
+    color:  rgb(120, 28, 23);
+    font-size: 1.25rem;
+    
   }
   
   .modalContainer button {

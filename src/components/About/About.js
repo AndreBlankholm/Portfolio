@@ -12,7 +12,7 @@ function About() {
         ></img>
         <div className="intro">
           <h2>Hello, I'm Andre Blankholm.</h2>
-          <br/>
+          <br />
           <h3>I am a University of Minnesota’s coding boot camp graduate.</h3>
 
           <div className="icon-div">
@@ -25,7 +25,6 @@ function About() {
                 className="uofm-icon-image"
                 src={require("../../assests/images/best-course-ever.png")}
                 alt="Full Stack web Devlopment Icon from the University of Minnesota"
-                
               ></img>
             </a>
           </div>
@@ -47,9 +46,6 @@ function About() {
           which includes voluntary training and leadership programs. Thank you
           for taking the time to review my profile..
           <br></br>
-          <br></br>
-          Best, <br />
-          Andre Blankholm
         </p>
       </div>
     </div>

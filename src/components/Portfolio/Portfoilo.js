@@ -68,6 +68,7 @@ function Portfolio() {
   }
 
   return (
+    <section className="container-vh">
     <div className="portfolio">
       {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
       {projects.map((project, index) => (
@@ -78,6 +79,7 @@ function Portfolio() {
         ></Project>
       ))}
     </div>
+    </section>
   );
 }
 

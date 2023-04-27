@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 ul {
 list-style: none;
 }

@@ -1,5 +1,6 @@
-.container-header-main {
-  background-image: linear-gradient(white, rgb(148, 55, 49));
+.container-header {
+height: 75vh;
+
 }
 
 .about-container {
@@ -8,6 +9,9 @@
 
 .introduction {
  padding: 10px;
+ display: flex;
+ flex-wrap: wrap;
+
 }
 
 .profile-image {
@@ -57,8 +61,10 @@
 
 
 .container-about-me {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: auto;
+  margin-bottom: 3px;
 }
 
 .introduction {
@@ -86,6 +92,3 @@
     color: rgb(108, 11, 6);
 }
 
-success.main{
-  color: red;
-}
