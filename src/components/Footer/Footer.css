@@ -4,12 +4,9 @@
     flex-direction: row;
     justify-content: center;
     margin: 1rem;
+    height: 100%;
 }
 
-.text {
-    font-size: 300%;
-    text-align: center;
-}
 
 .icon-container {
     display: flex;
@@ -23,4 +20,12 @@
     height: 70px !important;
     width: 70px;
     margin: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
 }

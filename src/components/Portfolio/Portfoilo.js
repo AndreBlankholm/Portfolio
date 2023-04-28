@@ -4,10 +4,8 @@ import Project from "../Project/Project";
 import Modal from "../Modal/Modal";
 
 function Portfolio() {
-  
   const [currentProject, setCurrentProject] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  
 
   const projects = [
     {
@@ -41,7 +39,7 @@ function Portfolio() {
         "A web app that will search GitHub for open source projects, dispaly them and the open issues",
       tools: "MySQL, Bootstrap, Handlebars.js",
       github: "https://andreblankholm.github.io/github-opensource-directory/",
-      deployment:"N/A",
+      deployment: "N/A",
     },
     {
       id: 4,
@@ -64,21 +62,24 @@ function Portfolio() {
     console.log(selectedProject);
     setCurrentProject(selectedProject);
     setIsModalOpen(!isModalOpen);
-
   }
 
   return (
     <section className="container-vh">
-    <div className="portfolio">
-      {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
-      {projects.map((project, index) => (
-        <Project
-          key={index}
-          project={project}
-          onCardClicked={toggleModal}
-        ></Project>
-      ))}
-    </div>
+      <div className="push">
+        <div className="portfolio">
+          {isModalOpen && (
+            <Modal currentProject={currentProject} onClose={toggleModal} />
+          )}
+          {projects.map((project, index) => (
+            <Project
+              key={index}
+              project={project}
+              onCardClicked={toggleModal}
+            ></Project>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

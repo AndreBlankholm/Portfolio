@@ -13,6 +13,7 @@ function Project(props) {
 
   return (
     <section className="project-page">
+      <div className="add1">
       <div
         className="project-container"
         onClick={() => onCardClicked(project.id)}
@@ -36,6 +37,7 @@ function Project(props) {
             </CardContent>
           </CardActionArea>
         </Card>
+      </div>
       </div>
     </section>
   );
