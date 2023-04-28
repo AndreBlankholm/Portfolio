@@ -29,3 +29,7 @@
     align-items: flex-end;
     position: relative;
 }
+
+.footer {
+    margin-top: auto;
+}
