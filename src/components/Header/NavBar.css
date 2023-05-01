@@ -55,9 +55,15 @@
 }
 
 @media screen and (max-width: 965px) {
-  .navbarLinks{
+  .navbarLinks {
     justify-content: center;
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navBarTitle {
+    display: none;
   }
 }
