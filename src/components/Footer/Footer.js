@@ -8,25 +8,24 @@ function Footer() {
     <>
       <div className="">
         <div className="social-icons">
-        <div>
-          <a
+          <div className="footer-links">
+            <a
               href="https://www.linkedin.com/in/andre-blankholm-647118a9"
               target="_blank"
               rel="noreferrer"
             >
-            <LinkedInIcon />
+              <LinkedInIcon fontSize="large"/>
             </a>
           </div>
-          <div>
-          <a
+          <div className="footer-links">
+            <a
               href="https://github.com/AndreBlankholm"
               target="_blank"
               rel="noreferrer"
             >
-            <GitHubIcon />
+              <GitHubIcon fontSize="large"/>
             </a>
           </div>
-         
         </div>
         <div className="footer-container">
           <ul className="icon-container">
