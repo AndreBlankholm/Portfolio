@@ -20,7 +20,7 @@
   color: rgb(108, 11, 6);
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-    font-weight: 650;
+  font-weight: 650;
 }
 
 .navItems {
@@ -44,4 +44,20 @@
   font-size: 40px;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 965px) {
+  .navBarTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .navbarLinks{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
 }

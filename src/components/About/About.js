@@ -5,11 +5,13 @@ function About() {
   return (
     <div className="container-header">
       <div className="introduction">
-        <img
-          className="profile-image"
-          src={require("../../assests/images/Portfolio.png")}
-          alt="Andre Blankolm's straight faced"
-        ></img>
+        <div className="proflie-image-container">
+          <img
+            className="profile-image"
+            src={require("../../assests/images/Portfolio.png")}
+            alt="Andre Blankolm's straight faced"
+          ></img>
+        </div>
         <div className="intro">
           <h2>Hello, I'm Andre Blankholm.</h2>
           <br />

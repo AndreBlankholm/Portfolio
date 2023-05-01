@@ -1,8 +1,9 @@
-
-
 .container-header {
-height: 70vh;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
 
+  margin-bottom: auto;
 }
 
 .about-container {
@@ -10,20 +11,28 @@ height: 70vh;
 }
 
 .introduction {
- padding: 10px;
- display: flex;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
  flex-wrap: wrap;
+}
 
+.profile-image-container {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
 }
 
 .profile-image {
-  border: solid 5px rgb(164, 81, 77);
+  border: solid 2px rgb(108, 11, 6);
   border-radius: 50%;
   height: 350px;
 }
 
 .intro {
- align-items: center;
+  align-items: center;
 }
 
 .intro h2 {
@@ -56,11 +65,7 @@ height: 70vh;
   width: 300px;
   flex-shrink: 2;
   margin: auto;
-  
- 
-  
 }
-
 
 .container-about-me {
   display: flex;
@@ -69,28 +74,20 @@ height: 70vh;
   margin-bottom: 3px;
 }
 
-.introduction {
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-bottom: auto;
-}
-
 .about-me-header {
   font-size: 4vh;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  color:rgb(157, 54, 49) ;
+  color: rgb(108, 11, 6);
   text-align: center;
 }
 
 .about-ptags {
   padding: 10px 90px 10px 90px;
   margin: auto;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    color: rgb(108, 11, 6);
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  color: rgb(108, 11, 6);
 }
-
