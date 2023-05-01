@@ -17,6 +17,7 @@
     flex-grow: 1;
     position: relative;
     box-sizing: inherit;
+    
 }
 
 ul {
@@ -27,6 +28,8 @@ a {
     text-decoration: none;
 }
 
+
+
 ul li {
     color: rgb(108, 11, 6);
 }
@@ -35,12 +38,14 @@ ul li a:hover {
     color: rgb(205, 116, 116);
 }
 
+
+
 a:hover {
-    color: rgb(208, 255, 0);
+    color: gold;
 }
 
-a.active {
-    background-color:gold;
+a.active button {
+    background-color:gold !important;
     color:rgb(108, 11, 6);
     border-radius: 50%;
 }

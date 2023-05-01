@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function Footer() {
   return (
     <>
-      <div>
+      <div className="">
         <div className="social-icons">
           <GitHubIcon /> <LinkedInIcon />
         </div>
