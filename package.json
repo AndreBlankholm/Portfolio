@@ -1,6 +1,6 @@
 {
-  "name": "about",
-  "homepage": "http://andreblankholm.github.io/Portfolio/",
+  "name": "portfolio",
+  "homepage": "http://andreblankholm.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
