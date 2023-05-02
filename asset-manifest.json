@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8a17ab12.css",
-    "main.js": "/Portfolio/static/js/main.1637c34f.js",
-    "static/media/everything-pizza.png": "/Portfolio/static/media/everything-pizza.dcba446a41458ce59d07.png",
-    "static/media/trip-consultant.png": "/Portfolio/static/media/trip-consultant.13bd224ab55e4051ebbb.png",
-    "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.effb75dd63ceda1f86d3.png",
-    "static/media/thank-you-for-looking.pdf": "/Portfolio/static/media/thank-you-for-looking.1d2d499c5fec3387d40a.pdf",
-    "static/media/weather-dash.png": "/Portfolio/static/media/weather-dash.e276398e3a60938d3cbf.png",
-    "static/media/git-it-done.png": "/Portfolio/static/media/git-it-done.49ec7dd9364fd873224e.png",
-    "static/media/best-course-ever.png": "/Portfolio/static/media/best-course-ever.99ed1c6338d39c88019c.png",
-    "index.html": "/Portfolio/index.html",
-    "main.8a17ab12.css.map": "/Portfolio/static/css/main.8a17ab12.css.map",
-    "main.1637c34f.js.map": "/Portfolio/static/js/main.1637c34f.js.map"
+    "main.css": "/Portfolio/portfolio/static/css/main.8a17ab12.css",
+    "main.js": "/Portfolio/portfolio/static/js/main.8461de3f.js",
+    "static/media/everything-pizza.png": "/Portfolio/portfolio/static/media/everything-pizza.dcba446a41458ce59d07.png",
+    "static/media/trip-consultant.png": "/Portfolio/portfolio/static/media/trip-consultant.13bd224ab55e4051ebbb.png",
+    "static/media/Portfolio.png": "/Portfolio/portfolio/static/media/Portfolio.effb75dd63ceda1f86d3.png",
+    "static/media/thank-you-for-looking.pdf": "/Portfolio/portfolio/static/media/thank-you-for-looking.1d2d499c5fec3387d40a.pdf",
+    "static/media/weather-dash.png": "/Portfolio/portfolio/static/media/weather-dash.e276398e3a60938d3cbf.png",
+    "static/media/git-it-done.png": "/Portfolio/portfolio/static/media/git-it-done.49ec7dd9364fd873224e.png",
+    "static/media/best-course-ever.png": "/Portfolio/portfolio/static/media/best-course-ever.99ed1c6338d39c88019c.png",
+    "index.html": "/Portfolio/portfolio/index.html",
+    "main.8a17ab12.css.map": "/Portfolio/portfolio/static/css/main.8a17ab12.css.map",
+    "main.8461de3f.js.map": "/Portfolio/portfolio/static/js/main.8461de3f.js.map"
   },
   "entrypoints": [
     "static/css/main.8a17ab12.css",
-    "static/js/main.1637c34f.js"
+    "static/js/main.8461de3f.js"
   ]
 }
