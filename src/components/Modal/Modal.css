@@ -90,7 +90,7 @@
     font-weight: 600;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 30px;
+    margin-bottom: auto;
     padding: 10px 15px;
   }
 
@@ -110,4 +110,8 @@
 
 
 
-  
+  @media screen and (max-width: 768px) {
+    .modalContainer{
+      min-width: 90%;
+    };
+  };
