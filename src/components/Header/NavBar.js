@@ -17,7 +17,7 @@ function NavBar() {
         <div className="navbarLinks">
           <ul className="navItems">
             <li>
-              <NavLink to={"/"}>About</NavLink>
+              <NavLink to={"/portfolio"}>About</NavLink>
             </li>
             <li>
               <NavLink to={"projects"}>Projects</NavLink>
