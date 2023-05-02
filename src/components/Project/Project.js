@@ -18,7 +18,7 @@ function Project(props) {
         className="project-container"
         onClick={() => onCardClicked(project.id)}
       >
-        <Card sx={{ maxWidth: 245 }} className="row">
+        <Card sx={{ maxWidth: 545 }} className="row">
           <CardActionArea>
             <CardMedia
               className="color"

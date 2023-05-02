@@ -66,4 +66,12 @@
   .navBarTitle {
     display: none;
   }
+
+  .navItems li {
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
 }

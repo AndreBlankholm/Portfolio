@@ -4,14 +4,10 @@
 
 .form-map-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;  
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content:space-evenly;
   height: 100%;
-  justify-content: space-evenly;
-  margin-top: 2%;
-  
 }
 
 .form-container {
@@ -19,7 +15,6 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  width: 30%;
 }
 
 .control {
@@ -36,7 +31,9 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
 }
 
 .h1-name-container h1 {
@@ -47,7 +44,7 @@
 
 .add-ins {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 15px;
 }
@@ -61,7 +58,9 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  min-height: 60vh;
 }
+
 
 .iframe-container span {
   text-align: center;
@@ -84,3 +83,20 @@
   
 }
 
+
+
+@media screen and (max-width: 1112px) {
+ 
+  .formset{
+    width: 75vw;
+  }
+  .h1-name-container {
+    width:87vw;
+    border: solid 2px rgb(120, 28, 23);
+    border-radius: 5px;
+  }
+  .iframe-container{
+    width: 90vw;
+  
+  }
+}
