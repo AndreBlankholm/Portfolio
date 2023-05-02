@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0c5871fb.css",
+    "main.css": "/Portfolio/static/css/main.3413f2f8.css",
     "main.js": "/Portfolio/static/js/main.5adf3a49.js",
     "static/media/everything-pizza.png": "/Portfolio/static/media/everything-pizza.dcba446a41458ce59d07.png",
     "static/media/trip-consultant.png": "/Portfolio/static/media/trip-consultant.13bd224ab55e4051ebbb.png",
@@ -10,11 +10,11 @@
     "static/media/git-it-done.png": "/Portfolio/static/media/git-it-done.49ec7dd9364fd873224e.png",
     "static/media/best-course-ever.png": "/Portfolio/static/media/best-course-ever.99ed1c6338d39c88019c.png",
     "index.html": "/Portfolio/index.html",
-    "main.0c5871fb.css.map": "/Portfolio/static/css/main.0c5871fb.css.map",
+    "main.3413f2f8.css.map": "/Portfolio/static/css/main.3413f2f8.css.map",
     "main.5adf3a49.js.map": "/Portfolio/static/js/main.5adf3a49.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c5871fb.css",
+    "static/css/main.3413f2f8.css",
     "static/js/main.5adf3a49.js"
   ]
 }
