@@ -112,6 +112,11 @@
 
   @media screen and (max-width: 768px) {
     .modalContainer{
+      display: flex;
+      justify-content: center;
       min-width: 90%;
+
     };
+
+
   };
