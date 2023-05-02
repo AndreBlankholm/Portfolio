@@ -20,7 +20,7 @@ function NavBar() {
               <NavLink to={"/"}>About</NavLink>
             </li>
             <li>
-              <NavLink to={"portfolio"}>Portfoilo</NavLink>
+              <NavLink to={"projects"}>Projects</NavLink>
             </li>
             <li>
               <NavLink to={"resume"}>Resume</NavLink>

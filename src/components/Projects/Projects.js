@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Portfolio.css";
+import "./Projects.css";
 import Project from "../Project/Project";
 import Modal from "../Modal/Modal";
 
-function Portfolio() {
+function Projects() {
   const [currentProject, setCurrentProject] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -84,4 +84,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;
