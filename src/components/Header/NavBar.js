@@ -10,14 +10,14 @@ function NavBar() {
     <div className="navBar-container">
       <nav className="nav">
         <div className="navBarTitle">
-          <NavLink to={"/home"}>
+          <NavLink to={"/"}>
             <h2 className="navBarName">Andre Blankholm</h2>
           </NavLink>
         </div>
         <div className="navbarLinks">
           <ul className="navItems">
             <li>
-              <NavLink to={"/home"}>About</NavLink>
+              <NavLink to={"/"}>About</NavLink>
             </li>
             <li>
               <NavLink to={"portfolio"}>Portfoilo</NavLink>
