@@ -110,8 +110,4 @@
 
 
 
-  @media screen and (max-width: 768px) {
-    .modalContainer{
-      min-width: 90%;
-    };
-  };
+  
