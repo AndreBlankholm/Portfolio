@@ -19,6 +19,7 @@ function Modal(props) {
           <p className="description">
             Description: {currentProject.description}
           </p>
+          
         </div>
         <div className="hyperLinks">
         <h2>Links:</h2>
@@ -38,7 +39,7 @@ function Modal(props) {
         </div>
 
         <button className="modal-button" type="button" onClick={() => onClose(currentProject.id)}>
-          Close
+          Close Modal
         </button>
       </div>
     </div>

@@ -10,6 +10,7 @@
     display: flex;
     margin-right: auto;
     margin-left: auto;
+    width: 70%;
   }
 
 
@@ -24,7 +25,7 @@
     flex-direction: column;
     background: rgb(251, 241, 180);    
     border-radius: 5px;
-    max-width: 50%;
+    min-width: 50%;
     margin:  auto;
     padding: auto;
     
@@ -74,7 +75,7 @@
     padding: 5px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    
     color:  rgb(120, 28, 23);
     
     
@@ -110,22 +111,4 @@
 
 
 
-  @media screen and (max-width: 768px) {
-
-    .modalBackdrop {
-      
-    }
-
-    .modalContainer{
-      display: flex;
-      justify-content: center;
-      margin: auto
-    
-    };
-      .modalTitle {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-  };
+  
