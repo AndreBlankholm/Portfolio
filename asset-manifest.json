@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b76b435d.css",
-    "main.js": "/Portfolio/static/js/main.5adf3a49.js",
+    "main.css": "/Portfolio/static/css/main.7393fa97.css",
+    "main.js": "/Portfolio/static/js/main.233cf544.js",
     "static/media/everything-pizza.png": "/Portfolio/static/media/everything-pizza.dcba446a41458ce59d07.png",
     "static/media/trip-consultant.png": "/Portfolio/static/media/trip-consultant.13bd224ab55e4051ebbb.png",
     "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.effb75dd63ceda1f86d3.png",
@@ -10,11 +10,11 @@
     "static/media/git-it-done.png": "/Portfolio/static/media/git-it-done.49ec7dd9364fd873224e.png",
     "static/media/best-course-ever.png": "/Portfolio/static/media/best-course-ever.99ed1c6338d39c88019c.png",
     "index.html": "/Portfolio/index.html",
-    "main.b76b435d.css.map": "/Portfolio/static/css/main.b76b435d.css.map",
-    "main.5adf3a49.js.map": "/Portfolio/static/js/main.5adf3a49.js.map"
+    "main.7393fa97.css.map": "/Portfolio/static/css/main.7393fa97.css.map",
+    "main.233cf544.js.map": "/Portfolio/static/js/main.233cf544.js.map"
   },
   "entrypoints": [
-    "static/css/main.b76b435d.css",
-    "static/js/main.5adf3a49.js"
+    "static/css/main.7393fa97.css",
+    "static/js/main.233cf544.js"
   ]
 }
