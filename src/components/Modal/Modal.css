@@ -61,7 +61,7 @@
     font-weight: bold;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 16px;
+    margin-top: auto;
   }
 
 
@@ -111,22 +111,21 @@
 
 
   @media screen and (max-width: 768px) {
+
+    .modalBackdrop {
+      
+    }
+
     .modalContainer{
       display: flex;
       justify-content: center;
-      min-width: 90vw;
-      
-      bottom: 0;
-      left: 0;
-      overflow:auto;
-      position: fixed;
-      right: 0;
-      top: 0;
-      z-index: 1;
-      display: flex;
-      margin-right: auto;
-      margin-left: auto;
+      margin: auto
+    
     };
-
+      .modalTitle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
   };
