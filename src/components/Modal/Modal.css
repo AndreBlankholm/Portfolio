@@ -1,5 +1,121 @@
 .modalBackdrop {
-    background: rgba(255, 255, 255, 0.678);
+  background: rgba(255, 255, 255, 0.678);
+  bottom: 0;
+  left: 0;
+  overflow:auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.modal-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(251, 241, 180);    
+  border-radius: 5px;
+  max-width: 50%;
+  margin:  auto;
+  padding: auto;
+  
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px rgb(120, 28, 23);
+}
+
+.modalContainer h3  {
+  color:  rgb(120, 28, 23);
+  font-size: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.modalContainer img{
+  border: solid 2px rgba(120, 28, 23, 0.896);
+  border-radius: 2%;
+  margin: 2px;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.description {
+  color:  rgb(120, 28, 23);
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 16px;
+}
+
+
+.hyperLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  color:  rgb(120, 28, 23);
+  
+  
+}
+
+.modalContainer button {
+  background: var(--primary);
+  border: solid  rgb(120, 28, 23);
+  border-radius: 5px;
+  color:  rgb(120, 28, 23);
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding: 10px 15px;
+}
+
+.h-links p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 145, 0);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .modalContainer{
+    display: flex;
+    justify-content: center;
+    min-width: 90vw;
+    
     bottom: 0;
     left: 0;
     overflow:auto;
@@ -10,105 +126,7 @@
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    width: 70%;
-  }
+  };
 
 
-  .modal-title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .modalContainer {
-    display: flex;
-    flex-direction: column;
-    background: rgb(251, 241, 180);    
-    border-radius: 5px;
-    min-width: 50%;
-    margin:  auto;
-    padding: auto;
-    
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: solid 2px rgb(120, 28, 23);
-  }
-  
-  .modalContainer h3  {
-    color:  rgb(120, 28, 23);
-    font-size: 3rem;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .modalContainer img{
-    border: solid 2px rgba(120, 28, 23, 0.896);
-    border-radius: 2%;
-    margin: 2px;
-  }
-
-  .modalTitle {
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: 10px;
-    margin-bottom: 25px;
-  }
-
-  .description {
-    color:  rgb(120, 28, 23);
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: auto;
-  }
-
-
-  .hyperLinks {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
-    padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    
-    color:  rgb(120, 28, 23);
-    
-    
-  }
-  
-  .modalContainer button {
-    background: var(--primary);
-    border: solid  rgb(120, 28, 23);
-    border-radius: 5px;
-    color:  rgb(120, 28, 23);
-    cursor: pointer;
-    font-size: 25px;
-    font-weight: 600;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    padding: 10px 15px;
-  }
-
-  .h-links p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-
-
-  a:hover {
-    text-decoration: underline;
-    color: rgb(255, 145, 0);
-  }
-
-
-
-  
+};
